@@ -1,0 +1,40 @@
+:root{
+    --Verde: #0C9463;
+    --Negro: #272727;
+    --Gris: #2C272E;
+    --Font:
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #272727;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 30%;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #0C9463;
+    height: 32px;
+    font-size: large;
+}
+.Resultado--Container{
+    background-color: white;
+    opacity: 0.1;
+    width: 20%;
+    margin-top: 40px;
+    border-radius: 40px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+}
+#Resultado{
+    color: #0C9463;
+    margin-top: 0px;
+
+}
