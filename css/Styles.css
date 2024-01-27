@@ -16,22 +16,24 @@ body{
     flex-direction: column;
 }
 button{
-    width: 30%;
+    width: fit-content;
     border-radius: 30px;
     border: 0px;
     background-color: #0C9463;
     height: 32px;
     font-size: large;
+    
 }
 .Resultado--Container{
     background-color: white;
     opacity: 0.1;
-    width: 20%;
+    width: fit-content;
     margin-top: 40px;
     border-radius: 40px;
     display: flex;
     height: 20px;
     justify-content: center;
+    
 }
 #Resultado{
     color: #0C9463;
